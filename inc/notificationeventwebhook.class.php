@@ -200,6 +200,10 @@ static public function extraRaise($params) {
 									break;
 
 									case 4: // JSON Web Token
+										[
+											'Content-type: application/json',
+											'Authorization: Bearer '.$webhook_infos['additionnaloption']['secret']
+										];
 									break;
 								}
 								

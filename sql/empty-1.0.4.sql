@@ -34,7 +34,7 @@ CREATE  TABLE `glpi_plugin_webhook_secrettypes` (
 INSERT INTO `glpi_plugin_webhook_secrettypes` VALUES (1,'1 - None','No Authentication');
 INSERT INTO `glpi_plugin_webhook_secrettypes` VALUES (2,'2 - Basic Authentication','Login:Password');
 INSERT INTO `glpi_plugin_webhook_secrettypes` VALUES (3,'3 - Encoded Basic Authentication','Base64-encoded Login:Password ');
--- INSERT INTO `glpi_plugin_webhook_secrettypes` VALUES (3,'JWT','JSON Web Token');
+INSERT INTO `glpi_plugin_webhook_secrettypes` VALUES (4,'4 - JWT','JSON Web Token');
 
 -- -----------------------------------------------------
 -- Table `glpi_plugin_webhook_verbtypes`
